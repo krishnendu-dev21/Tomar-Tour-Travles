@@ -1,8 +1,8 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Navbar from "./components/navbar";
+import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/Contact";
 import Footer from './components/footer';
