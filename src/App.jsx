@@ -4,7 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import About from "./pages/about";
-import Contact from "./pages/contact";
+// import Contact from "./pages/contact";
+import Contact from './pages/Contact'
 import Footer from './components/footer';
 import ScrollToTop from "./components/scrollToTop";
 function App() {
