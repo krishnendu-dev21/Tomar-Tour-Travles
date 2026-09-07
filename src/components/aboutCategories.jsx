@@ -1,7 +1,7 @@
 import React from "react";
 
 import car1Img from "../assets/img-Photoroom.png";
-import luxuryCarImg from "../assets/images.jpg";
+import luxuryCarImg from "../assets/buscar.jpg";
 import FAMILYCAR from '../assets/car4-removebg-preview.png';
 import comfrotCarImg from '../assets/car1-removebg-preview.png';
 
@@ -158,7 +158,7 @@ function AboutCategories() {
 
 
             <h3>
-              Luxury
+              BUS CAR
             </h3>
 
 
