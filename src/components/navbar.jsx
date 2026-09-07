@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import carLogo from "../assets/Car-Logo-PNG-File.png";
-
 function Navbar() {
   return (
     <nav className="navbar">

@@ -6779,5 +6779,10 @@ a {
   overflow-wrap: break-word;
 }
 
+/* .logo img {
+  width: 155px;
+  height: 155px;
+  object-fit: contain;
+} */
 
 
