@@ -1,15 +1,14 @@
 import React from "react";
 
-import car1Img from "../assets/img-Photoroom.png";
-import luxuryCarImg from "../assets/buscar.jpg";
-import FAMILYCAR from '../assets/car4-removebg-preview.png';
-import comfrotCarImg from '../assets/car1-removebg-preview.png';
+import suvImg from "../assets/SUVs (Sport Utility Vehicles).jpeg";
+import sedanImg from "../assets/Sedans.jpeg";
+import tempoTravellerImg from "../assets/Tempo TravellersMinivans.webp";
+import Suzuki from "../assets/car1-removebg-preview.png";
 
 
 function AboutCategories() {
   return (
     <section className="categories-section">
-
 
       <div className="section-heading">
 
@@ -17,12 +16,10 @@ function AboutCategories() {
           OUR COLLECTION
         </span>
 
-
         <h2>
           Find The Right Car
           <span> For Every Journey</span>
         </h2>
-
 
         <p>
           Explore our collection and choose
@@ -36,32 +33,29 @@ function AboutCategories() {
 
 
         {/* =================================================
-            HATCHBACK
+            SUV
         ================================================= */}
 
-        <div className="category-card category-hatchback">
+        <div className="category-card category-suv">
 
           <img
-            src={car1Img}
-            alt="Hatchback car"
+            src={suvImg}
+            alt="SUV car"
             className="category-car-image"
           />
-
 
           <div className="category-content">
 
             <span className="category-small-label">
-              CITY CAR
+              POWER & SPACE
             </span>
 
-
             <h3>
-              Suzuki Ertiga
+              SUVs
             </h3>
 
-
             <p>
-              Perfect for city driving
+              Spacious and perfect for long journeys
             </p>
 
           </div>
@@ -70,29 +64,56 @@ function AboutCategories() {
 
 
         {/* =================================================
-            SEDAN
+            SEDAN / FAMILY CAR
         ================================================= */}
 
         <div className="category-card category-sedan">
 
           <img
-            src={comfrotCarImg}
-            alt="Sedan car"
+            src={sedanImg}
+            alt="Sedan family car"
             className="category-car-image"
           />
-
 
           <div className="category-content">
 
             <span className="category-small-label">
-              COMFORT
+              FAMILY CAR
             </span>
 
-
             <h3>
-              Suzuki Ertiga 
+              Sedans
             </h3>
 
+            <p>
+              Comfortable and perfect for family trips
+            </p>
+
+          </div>
+
+        </div>
+       
+         {/* =================================================
+            Suzuki Ertiga / COMFORTABLE TRAVEL
+        ================================================= */}
+
+        <div className="category-card category-luxury">
+
+          <img
+            src={Suzuki}
+            alt="Suzuki Ertiga"
+            className="category-car-image"
+          />
+
+          <div className="category-content">
+
+            <span className="category-small-label">
+              COMFORTABLE TRAVEL
+            </span>
+
+            <h3>
+              Suzuki Ertiga
+            </h3>
 
             <p>
               Comfortable everyday driving
@@ -102,34 +123,30 @@ function AboutCategories() {
 
         </div>
 
-
         {/* =================================================
-            SUV
+            TEMPO TRAVELLER / MINIVAN
         ================================================= */}
 
-        <div className="category-card category-suv">
+        <div className="category-card category-hatchback">
 
           <img
-            src={FAMILYCAR}
-            alt="SUV car"
+            src={tempoTravellerImg}
+            alt="Tempo Traveller and Minivan"
             className="category-car-image"
           />
-
 
           <div className="category-content">
 
             <span className="category-small-label">
-              FAMILY CAR
+              GROUP TRAVEL
             </span>
 
-
             <h3>
-              Suzuki Ertiga
+              Tempo Traveller
             </h3>
 
-
             <p>
-              Perfect for family trips
+              Ideal for group trips and family tours
             </p>
 
           </div>
@@ -137,38 +154,7 @@ function AboutCategories() {
         </div>
 
 
-        {/* =================================================
-            LUXURY
-        ================================================= */}
-
-        <div className="category-card category-luxury">
-
-          <img
-            src={luxuryCarImg}
-            alt="Luxury sports car"
-            className="category-car-image"
-          />
-
-
-          <div className="category-content">
-
-            <span className="category-small-label">
-              PREMIUM
-            </span>
-
-
-            <h3>
-              BUS CAR
-            </h3>
-
-
-            <p>
-              Premium driving experience
-            </p>
-
-          </div>
-
-        </div>
+        
 
 
       </div>
@@ -176,5 +162,6 @@ function AboutCategories() {
     </section>
   );
 }
+
 
 export default AboutCategories;
